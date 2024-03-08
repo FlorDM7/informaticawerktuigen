@@ -12,5 +12,8 @@ class Main {
 		store.addBook(new Book("Lord of the Flies", "William Golding", 1954));
 
 		System.out.println(store.toString());
+
+		System.out.println(store.getBooksByYear(1949).toString());
+
 	}
 }

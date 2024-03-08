@@ -15,3 +15,13 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# ignore all files with .zip, .tgz and .tar.gz extension
+*.zip
+*.tgz
+*.tar.gz
+
+# ignore the following directories
+.cache/
+tmp/
+local/
